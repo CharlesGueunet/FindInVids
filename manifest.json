@@ -1,0 +1,20 @@
+{
+   "name": "SearchInVids",
+   "version": "0.1",
+   "manifest_version": 2,
+   "permissions": [
+      "tabs"
+   ],
+   "background":
+   {
+      "scripts": ["thirdParty/gapi.js", "thirdParty/jquery-3.3.1.min.js", "media/scripts/searchInVis.js"]
+   },
+   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+   "description": "Search in Youtube Video using Caption",
+   "icons": {
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "offline_enabled": false
+}

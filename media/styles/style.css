@@ -1,0 +1,32 @@
+html {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   color: #444;
+   font: 12px/20px Arial, sans-serif;
+   height: auto;
+   margin: 10px;
+   overflow: hidden;
+   width: auto;
+   -webkit-user-select: none;
+}
+
+#searchInVideo {
+   background: #fafafa;
+   border: none;
+   color: #444;
+   margin-top: 10px;
+   overflow-x: hidden;
+   overflow-y: auto;
+   padding: 10px;
+   resize: none;
+   width: 120px;
+   -webkit-border-radius: 5px;
+}
+
+.searchMenu { padding:0; margin:0; width:230px; float:left;}
+.searchMenu ul { padding:0; margin:0; list-style:none; border:0; float:left;}
+.searchMenu ul li { float:left; margin:0; padding:0; border:0;}
+
