@@ -26,7 +26,24 @@ body {
    -webkit-border-radius: 5px;
 }
 
-.searchMenu { padding:0; margin:0; width:230px; float:left;}
-.searchMenu ul { padding:0; margin:0; list-style:none; border:0; float:left;}
-.searchMenu ul li { float:left; margin:0; padding:0; border:0;}
+.searchMenu {
+   padding:0;
+   margin:0;
+   width:230px;
+   float:left;
+}
 
+.searchMenu ul {
+   padding:0;
+   margin:0;
+   list-style:none;
+   border:0;
+   float:left;
+}
+
+.searchMenu ul li {
+   float:left;
+   margin:0;
+   padding:0;
+   border:0;
+}

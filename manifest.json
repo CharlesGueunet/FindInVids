@@ -3,11 +3,19 @@
    "version": "0.1",
    "manifest_version": 2,
    "permissions": [
-      "tabs"
+      "tabs",
+      "<all_urls>"
    ],
    "background":
    {
-      "scripts": ["thirdParty/gapi.js", "thirdParty/jquery-3.3.1.min.js", "media/scripts/searchInVis.js"]
+      "scripts": [
+          "thirdParty/jquery-3.3.1.min.js",
+          "media/scripts/capi.js",
+          "media/scripts/searchInVids.js"
+      ]
+   },
+   "externally_connectable": {
+      "matches": ["https://*.youtube.com/*"]
    },
    "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
    "description": "Search in Youtube Video using Caption",
